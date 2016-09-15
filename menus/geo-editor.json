@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle geo-editor",
+        "command": "geo-editor:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "geo-editor",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "geo-editor:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
