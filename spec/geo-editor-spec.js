@@ -32,10 +32,10 @@ describe('GeoEditor', () => {
       runs(() => {
         expect(workspaceElement.querySelector('.geo-editor')).toExist();
 
-        let geoEditorElement = workspaceElement.querySelector('.geo-editor');
+        const geoEditorElement = workspaceElement.querySelector('.geo-editor');
         expect(geoEditorElement).toExist();
 
-        let geoEditorPanel = atom.workspace.panelForItem(geoEditorElement);
+        const geoEditorPanel = atom.workspace.panelForItem(geoEditorElement);
         expect(geoEditorPanel.isVisible()).toBe(true);
         atom.commands.dispatch(workspaceElement, 'geo-editor:toggle');
         expect(geoEditorPanel.isVisible()).toBe(false);
@@ -63,7 +63,7 @@ describe('GeoEditor', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let geoEditorElement = workspaceElement.querySelector('.geo-editor');
+        const geoEditorElement = workspaceElement.querySelector('.geo-editor');
         expect(geoEditorElement).toBeVisible();
         atom.commands.dispatch(workspaceElement, 'geo-editor:toggle');
         expect(geoEditorElement).not.toBeVisible();

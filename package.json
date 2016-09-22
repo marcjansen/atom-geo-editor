@@ -3,8 +3,7 @@
   "main": "./lib/geo-editor",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "geo-editor:toggle"
   },
@@ -13,6 +12,30 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
+  "scripts": {
+    "lint": "eslint lib/ spec/",
+    "lintfix": "eslint lib/ spec/ --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "3.5.0"
+  },
+  "eslintConfig": {
+    "rules": {
+      "semi": [
+        2,
+        "always"
+      ]
+    },
+    "globals": {
+      "atom": "true"
+    },
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    }
   }
 }
