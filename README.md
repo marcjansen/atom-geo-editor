@@ -4,6 +4,8 @@
 
 The `geo-editor` package wants to enhance atom so that editing of geospatial data becomes more easy.
 
+![A screenshot of the geo-editor package](geo-editor.png)
+
 ## How do I…
 
 ### …show the editor?
@@ -45,5 +47,3 @@ Future tasks:
 * Better included into Atom user interface
 
 This is a fun project of mine, I cannot guarantee I will have time to work on future tasks and or bug-fixes.
-
-![A screenshot of the geo-editor package](geo-editor.png)
