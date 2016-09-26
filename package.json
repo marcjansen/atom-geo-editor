@@ -2,7 +2,7 @@
   "name": "geo-editor",
   "main": "./lib/geo-editor",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "Visually edit geodata sources on a map",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "geo-editor:toggle"
