@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "geo-editor:toggle"
   },
-  "repository": "https://github.com/atom/geo-editor",
+  "repository": "https://github.com/marcjansen/atom-geo-editor",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
