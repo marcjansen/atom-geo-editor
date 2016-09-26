@@ -4,7 +4,7 @@
 
 The `geo-editor` package wants to enhance atom so that editing of geospatial data becomes more easy.
 
-![A screenshot of the geo-editor package](geo-editor.png)
+![A screenshot of the geo-editor package](https://cdn.rawgit.com/marcjansen/atom-geo-editor/v0.2.0/geo-editor.png)
 
 ## How do I…
 
